@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(93, 93, 237);
+    display:flex;
+    justify-content: center;
+    height:10vh ;
+    margin-bottom: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    
+    padding-top:20px;
+
+}
+.container{
+    
+    
+    display: grid;
+    
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+   margin-left:40%;
+
+    
+}
+
+ .box{
+    border: 2px solid black;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px ;
+    font-family: 'Roboto', serif;
+    font-size: larger;
+   
+}
+.container div:hover{
+    background-color: rgb(140, 220, 220);
+}
+.bt-0 {
+    border-top: 0 ;
+}
+.bl-0{
+    border-left: 0 ;
+} 
+.br-0{
+    border-right: 0 ;
+} 
+.bb-0{
+    border-bottom: 0;
+}
+.game-info{
+    background-color: rgb(107, 107, 207);
+}
+#reset{
+border-radius: 12%;
+
+font-size: 20px;
+padding:20px auto;
+margin:10px 20px;
+background-color: blueviolet;
+color: rgb(228, 228, 55)
+
+
+}
+#save{
+    border-radius: 12%;
+
+font-size: 20px;
+padding:20px auto;
+margin:10px 20px;
+background-color: blueviolet;
+color: rgb(228, 228, 55)
+
+}
+.game-info{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content:center ;
+    gap: 50px;
+}
+.guide {
+    margin-bottom: 20px;
+  }
+
+  .game-info h2 {
+    margin-bottom: 10px;
+  }
+
+  .game-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+
+  .game-info li {
+    margin-bottom: 5px;
+  }
+#gif{
+    display: none;
+    background-color: rgb(205, 173, 131);
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    height: 200px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(235, 104, 224);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: yellow;
+    color: black;
+}
